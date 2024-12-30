@@ -1,0 +1,8 @@
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init
+
+Add postcss.config.js for proper working of tailwindcss
+
+==================
+npm i react-router-dom
+==================
