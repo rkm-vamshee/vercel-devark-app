@@ -1,0 +1,15 @@
+10,11,12,13 - Main design
+14 - Main functionality
+
+
+============
+Header
+============
+
+Home
+Center - File Name 
+End- Save Btn, Download Btn
+==================
+Main
+==================
+npm i react-icons

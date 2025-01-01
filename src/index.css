@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.btn-primary{
+        @apply bg-blue-600 py-2 w-[80px] text-white transition-all hover:bg-blue-800 rounded;
+}
+.btn-purple{
+        @apply bg-purple-600 py-2 w-[80px] text-white transition-all hover:bg-purple-800 rounded-md
+}

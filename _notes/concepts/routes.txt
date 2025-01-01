@@ -1,0 +1,20 @@
+  { path:"", element:<Navigate to="/design/213/edit" replace />},
+  { path:"/home", element:<Index/>},
+  { path:"/design/:id/edit", element:<Main/>},
+
+  =====================
+
+  this.props.navigate('/');
+
+  import { Navigate } from "react-router-dom"
+const [login, setLogin] = useState(true)
+return (<>
+{!login && <Navigate to="/login" />}
+<>)
+
+========================
+    const navigate = useNavigate();
+
+    const handelGoToLogin = () => {
+        navigate('/auth/login')
+    }
